@@ -10,38 +10,38 @@ public class T00 {
         a1 = Integer.parseInt(input.nextLine());
         a2 = Integer.parseInt(input.nextLine());
         if (a1 % 2 == 0) {
-            System.out.println("bilangan pertama: genap");
+            System.out.println("Bilangan pertama: Genap");
         } else {
-            System.out.println("bilangan pertama: ganjil");
+            System.out.println("Bilangan pertama: Ganjil");
         }
         if (a2 % 2 == 0) {
-            System.out.println("bilangan kedua: genap");
+            System.out.println("Bilangan kedua: Genap");
         } else {
-            System.out.println("bilangan kedua: ganjil");
+            System.out.println("Bilangan kedua: Ganjil");
         }
         if (a1 > a2) {
-            System.out.println("bilangan pertama lebih besar");
+            System.out.println("Bilangan pertama lebih besar");
         } else {
             if (a1 < a2) {
-                System.out.println("bilangan kedua lebih besar");
+                System.out.println("Bilangan kedua lebih besar");
             } else {
-                System.out.println("kedua bilangan sama besar");
+                System.out.println("Kedua bilangan sama besar");
             }
         }
         if (a1 % 2 == 0 && a2 % 2 == 0) {
             hj = a1 + a2;
-            System.out.println("hasil penjumlahan:" + hj);
+            System.out.println("Hasil penjumlahan:" + hj);
         } else {
             if (a1 % 2 != 0 && a2 % 2 != 0) {
                 hx = a1 * a2;
-                System.out.println("hasil perkalian:" + hx);
+                System.out.println("Hasil perkalian:" + hx);
             }
         }
         if (a1 % 2 != 0 && a2 % 2 == 0) {
-            System.out.println("berbeda jenis");
+            System.out.println("Berbeda jenis");
         } else {
             if (a2 % 2 != 0 && a1 % 2 == 0) {
-                System.out.println("berbeda jenis");
+                System.out.println("Berbeda jenis");
             }
         }
     }
