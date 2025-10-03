@@ -4,9 +4,9 @@
         <attribute name="name" value="T00"/>
         <attribute name="authors" value="boash"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-10-03 08.31.16 PM"/>
+        <attribute name="saved" value="2025-10-03 08.50.33 PM"/>
         <attribute name="created" value="Ym9hc2g7SFVUQUhBRUFOOzIwMjUtMTAtMDI7MDguMTYuNDMgUE07MjQzNA=="/>
-        <attribute name="edited" value="Ym9hc2g7SFVUQUhBRUFOOzIwMjUtMTAtMDM7MDguMzEuMTYgUE07MzsyNTQy"/>
+        <attribute name="edited" value="Ym9hc2g7SFVUQUhBRUFOOzIwMjUtMTAtMDM7MDguNTAuMzMgUE07NDsyNTQz"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -48,13 +48,13 @@
             <if expression="a1 mod 2 == 0 &amp;&amp; a2 mod 2 == 0">
                 <then>
                     <assign variable="hj" expression="a1+a2"/>
-                    <output expression="&quot;Hasil penjumlahan:&quot;&amp;hj" newline="True"/>
+                    <output expression="&quot;Hasil penjumlahan: &quot;&amp;hj" newline="True"/>
                 </then>
                 <else>
                     <if expression="a1 mod 2 != 0 &amp;&amp; a2 mod 2 != 0">
                         <then>
                             <assign variable="hx" expression="a1*a2"/>
-                            <output expression="&quot;Hasil perkalian:&quot;&amp;hx" newline="True"/>
+                            <output expression="&quot;Hasil perkalian: &quot;&amp;hx" newline="True"/>
                         </then>
                         <else/>
                     </if>

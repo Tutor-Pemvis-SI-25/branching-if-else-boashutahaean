@@ -30,11 +30,11 @@ public class T00 {
         }
         if (a1 % 2 == 0 && a2 % 2 == 0) {
             hj = a1 + a2;
-            System.out.println("Hasil penjumlahan:" + hj);
+            System.out.println("Hasil penjumlahan: " + hj);
         } else {
             if (a1 % 2 != 0 && a2 % 2 != 0) {
                 hx = a1 * a2;
-                System.out.println("Hasil perkalian:" + hx);
+                System.out.println("Hasil perkalian: " + hx);
             }
         }
         if (a1 % 2 != 0 && a2 % 2 == 0) {
